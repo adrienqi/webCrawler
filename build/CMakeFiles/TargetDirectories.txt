@@ -1,12 +1,10 @@
 /Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles/webCrawler.dir
-/Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles/test.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles/edit_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles/rebuild_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles/list_install_components.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles/install.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles/install/local.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles/install/strip.dir
-/Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/CMakeFiles/test.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/CMakeFiles/edit_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/CMakeFiles/rebuild_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/CMakeFiles/list_install_components.dir
@@ -14,7 +12,6 @@
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/CMakeFiles/install/local.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/CMakeFiles/install/strip.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/zlib-build/CMakeFiles/zlib.dir
-/Users/aqi/Documents/GitHub/webCrawler/build/_deps/zlib-build/CMakeFiles/test.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/zlib-build/CMakeFiles/edit_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/zlib-build/CMakeFiles/rebuild_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/zlib-build/CMakeFiles/list_install_components.dir
@@ -22,7 +19,6 @@
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/zlib-build/CMakeFiles/install/local.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/zlib-build/CMakeFiles/install/strip.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/CMakeFiles/uninstall.dir
-/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/CMakeFiles/test.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/CMakeFiles/edit_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/CMakeFiles/rebuild_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/CMakeFiles/list_install_components.dir
@@ -30,7 +26,6 @@
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/CMakeFiles/install/local.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/CMakeFiles/install/strip.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib/CMakeFiles/libcurl.dir
-/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib/CMakeFiles/test.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib/CMakeFiles/edit_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib/CMakeFiles/rebuild_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib/CMakeFiles/list_install_components.dir
@@ -38,14 +33,12 @@
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib/CMakeFiles/install/local.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib/CMakeFiles/install/strip.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/cpr/CMakeFiles/cpr.dir
-/Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/cpr/CMakeFiles/test.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/cpr/CMakeFiles/edit_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/cpr/CMakeFiles/rebuild_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/cpr/CMakeFiles/list_install_components.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/cpr/CMakeFiles/install.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/cpr/CMakeFiles/install/local.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/cpr/CMakeFiles/install/strip.dir
-/Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/include/CMakeFiles/test.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/include/CMakeFiles/edit_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/include/CMakeFiles/rebuild_cache.dir
 /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/include/CMakeFiles/list_install_components.dir

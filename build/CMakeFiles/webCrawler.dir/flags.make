@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-src/include -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-build/cpr_generated_includes -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-src/include
 
-CXX_FLAGSarm64 = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11
+CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11
 
-CXX_FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11
+CXX_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++11
 

@@ -307,8 +307,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/libcurl.dir/wildcard.c.o.d"
   "CMakeFiles/libcurl.dir/x509asn1.c.o"
   "CMakeFiles/libcurl.dir/x509asn1.c.o.d"
-  "libcurl.dylib"
-  "libcurl.pdb"
+  "libcurl-d.dylib"
+  "libcurl-d.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

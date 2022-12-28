@@ -17,6 +17,8 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release" "MinSizeRel" "RelWithDebInfo")
 endif()
 
+find_package(gumbo.h)
+
 add_executable(webCrawler main.cpp)
 
 if(WIN32) # Install dlls in the same directory as the executable on Windows
@@ -30,13 +32,3 @@ FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git
 FetchContent_MakeAvailable(cpr)
 
 target_link_libraries(webCrawler PRIVATE cpr::cpr)
-
-# Add the cmake modules directory to our module path.
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR}/cmake)
-find_package(Gumbo REQUIRED)
-
-# Set our library source directory.
-set(gumbo_query_SOURCE_DIRECTORY ${PROJECT_SOURCE_DIR}/src)
-
-enable_testing()
-add_test(NAME "ID Test" COMMAND id_test)

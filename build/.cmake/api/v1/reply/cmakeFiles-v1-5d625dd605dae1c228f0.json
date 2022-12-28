@@ -172,27 +172,6 @@
 			"path" : "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
 		},
 		{
-			"path" : "cmake/FindGumbo.cmake"
-		},
-		{
-			"path" : "cmake/LibFindMacros.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FindPkgConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FindPackageMessage.cmake"
-		},
-		{
 			"isGenerated" : true,
 			"path" : "build/_deps/cpr-src/CMakeLists.txt"
 		},

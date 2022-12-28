@@ -11,7 +11,7 @@
 						1
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -33,7 +33,7 @@
 						6
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.cpr-build-Release-f671a4efa47f7ab62033.json",
+					"jsonFile" : "directory-_deps.cpr-build-Debug-f671a4efa47f7ab62033.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -45,7 +45,7 @@
 				{
 					"build" : "_deps/zlib-build",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.zlib-build-Release-9131c2a8b99c68df52e3.json",
+					"jsonFile" : "directory-_deps.zlib-build-Debug-9131c2a8b99c68df52e3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5.1"
@@ -65,7 +65,7 @@
 						4
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.curl-build-Release-efd41518ef11809d3e2b.json",
+					"jsonFile" : "directory-_deps.curl-build-Debug-efd41518ef11809d3e2b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.2"
@@ -81,7 +81,7 @@
 				{
 					"build" : "_deps/curl-build/lib",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.curl-build.lib-Release-b193be64048f6d5ef79e.json",
+					"jsonFile" : "directory-_deps.curl-build.lib-Debug-ebe688f2fa0658e8f83d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.2"
@@ -97,7 +97,7 @@
 				{
 					"build" : "_deps/cpr-build/cpr",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.cpr-build.cpr-Release-1690a50d9a752338cadc.json",
+					"jsonFile" : "directory-_deps.cpr-build.cpr-Debug-1690a50d9a752338cadc.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -113,7 +113,7 @@
 				{
 					"build" : "_deps/cpr-build/include",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.cpr-build.include-Release-fd7b7bdfbf9263356336.json",
+					"jsonFile" : "directory-_deps.cpr-build.include-Debug-fd7b7bdfbf9263356336.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -123,7 +123,7 @@
 					"source" : "build/_deps/cpr-src/include"
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -192,35 +192,35 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "cpr::@c4b08663df96993e8225",
-					"jsonFile" : "target-cpr-Release-5321c6302c59fc708132.json",
+					"jsonFile" : "target-cpr-Debug-2f62e66113f9ca73ffa4.json",
 					"name" : "cpr",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "libcurl::@7349aeacaff41deceb36",
-					"jsonFile" : "target-libcurl-Release-fc300bdb0b81af604578.json",
+					"jsonFile" : "target-libcurl-Debug-622c2a921bb9a2f070f6.json",
 					"name" : "libcurl",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "uninstall::@b95861b2ba384b5171eb",
-					"jsonFile" : "target-uninstall-Release-f6b1dfe55c273f082fe9.json",
+					"jsonFile" : "target-uninstall-Debug-f6b1dfe55c273f082fe9.json",
 					"name" : "uninstall",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "webCrawler::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-webCrawler-Release-24c47a23dfa1bce2a8ea.json",
+					"jsonFile" : "target-webCrawler-Debug-a04f0a7dd34444bf7ecc.json",
 					"name" : "webCrawler",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "zlib::@c9556b0b6bf47963f9da",
-					"jsonFile" : "target-zlib-Release-0c36e555b95f91b7c274.json",
+					"jsonFile" : "target-zlib-Debug-a0265ad6e5748d9f8ccf.json",
 					"name" : "zlib",
 					"projectIndex" : 2
 				}

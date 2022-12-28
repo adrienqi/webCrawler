@@ -30,7 +30,7 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"_deps/curl-build/lib/libcurl.dylib"
+				"_deps/curl-build/lib/libcurl-d.dylib"
 			],
 			"targetId" : "libcurl::@7349aeacaff41deceb36",
 			"targetIndex" : 1,

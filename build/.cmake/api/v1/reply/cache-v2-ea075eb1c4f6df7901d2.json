@@ -167,7 +167,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Release"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -3042,486 +3042,6 @@
 			"value" : "/opt/homebrew/bin/git"
 		},
 		{
-			"name" : "Gumbo_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Gumbo."
-				}
-			],
-			"type" : "PATH",
-			"value" : "Gumbo_DIR-NOTFOUND"
-		},
-		{
-			"name" : "Gumbo_INCLUDE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/opt/homebrew/include"
-		},
-		{
-			"name" : "Gumbo_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/opt/homebrew/lib/libgumbo.dylib"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_CFLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "-I/opt/homebrew/Cellar/gumbo-parser/0.10.1/include"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_CFLAGS_I",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_CFLAGS_OTHER",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_FOUND",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_INCLUDEDIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/gumbo-parser/0.10.1/include"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_INCLUDE_DIRS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/gumbo-parser/0.10.1/include"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_LDFLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "-L/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib;-lgumbo"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_LDFLAGS_OTHER",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_LIBDIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "gumbo"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_LIBRARY_DIRS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_LIBS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_LIBS_L",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_LIBS_OTHER",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_LIBS_PATHS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_MODULE_NAME",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "gumbo"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_PREFIX",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/gumbo-parser/0.10.1"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_CFLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "-I/opt/homebrew/Cellar/gumbo-parser/0.10.1/include"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_CFLAGS_I",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_CFLAGS_OTHER",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_INCLUDE_DIRS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/gumbo-parser/0.10.1/include"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_LDFLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "-L/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib;-lgumbo"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_LDFLAGS_OTHER",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_LIBDIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "gumbo"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_LIBRARY_DIRS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_LIBS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_LIBS_L",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_LIBS_OTHER",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_STATIC_LIBS_PATHS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "0.10.1"
-		},
-		{
-			"name" : "Gumbo_PKGCONF_gumbo_INCLUDEDIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_gumbo_LIBDIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_gumbo_PREFIX",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_PKGCONF_gumbo_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "Gumbo_static_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/opt/homebrew/lib/libgumbo.a"
-		},
-		{
 			"name" : "HAVE_ALARM",
 			"properties" : 
 			[
@@ -5810,38 +5330,6 @@
 			"value" : "/usr/local/lib/pkgconfig"
 		},
 		{
-			"name" : "PKG_CONFIG_ARGN",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Arguments to supply to pkg-config"
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "PKG_CONFIG_EXECUTABLE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "pkg-config executable"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/opt/homebrew/bin/pkg-config"
-		},
-		{
 			"name" : "RANDOM_FILE",
 			"properties" : 
 			[
@@ -6626,30 +6114,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "__pkg_config_arguments_Gumbo_PKGCONF",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "gumbo;QUIET"
-		},
-		{
-			"name" : "__pkg_config_checked_Gumbo_PKGCONF",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "compile_result_unused",
 			"properties" : 
 			[
@@ -6770,32 +6234,40 @@
 			"value" : "1"
 		},
 		{
-			"name" : "pkgcfg_lib_Gumbo_PKGCONF_gumbo",
+			"name" : "gumbo-parser_DIR",
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a library."
+					"value" : "The directory containing a CMake configuration file for gumbo-parser."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib/libgumbo.dylib"
+			"type" : "PATH",
+			"value" : "gumbo-parser_DIR-NOTFOUND"
 		},
 		{
-			"name" : "prefix_result",
+			"name" : "gumbo.h_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for gumbo.h."
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib"
+			"type" : "PATH",
+			"value" : "gumbo.h_DIR-NOTFOUND"
+		},
+		{
+			"name" : "gumbo_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gumbo."
+				}
+			],
+			"type" : "PATH",
+			"value" : "gumbo_DIR-NOTFOUND"
 		},
 		{
 			"name" : "webCrawler_BINARY_DIR",

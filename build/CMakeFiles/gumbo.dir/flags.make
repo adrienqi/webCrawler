@@ -4,9 +4,9 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/aqi/Documents/GitHub/webCrawler/gumbo-parser/src
+C_INCLUDES = -I/Users/aqi/Documents/GitHub/webCrawler/gumbo-parser/src -I/Users/aqi/Documents/GitHub/webCrawler/build/include -I/Users/aqi/Documents/GitHub/webCrawler/build/include/gumbo
 
-C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+C_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
 
-C_FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+C_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
 

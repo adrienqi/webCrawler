@@ -460,7 +460,7 @@ _deps/cpr-build/cpr/libcpr.1.9.0.dylib: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/r
 _deps/cpr-build/cpr/libcpr.1.9.0.dylib: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/interceptor.cpp.o
 _deps/cpr-build/cpr/libcpr.1.9.0.dylib: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ssl_ctx.cpp.o
 _deps/cpr-build/cpr/libcpr.1.9.0.dylib: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build.make
-_deps/cpr-build/cpr/libcpr.1.9.0.dylib: _deps/curl-build/lib/libcurl.dylib
+_deps/cpr-build/cpr/libcpr.1.9.0.dylib: _deps/curl-build/lib/libcurl-d.dylib
 _deps/cpr-build/cpr/libcpr.1.9.0.dylib: /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libz.tbd
 _deps/cpr-build/cpr/libcpr.1.9.0.dylib: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX shared library libcpr.dylib"

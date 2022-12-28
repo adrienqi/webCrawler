@@ -6,9 +6,9 @@ C_DEFINES = -DARM_ACLE_CRC_HASH -DARM_FEATURES -DARM_NEON_ADLER32 -DARM_NEON_CHU
 
 C_INCLUDES = -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/zlib-build -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/zlib-src
 
-C_FLAGSarm64 =  -Wall -Wno-implicit-fallthrough -O2 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fPIC -fno-semantic-interposition -std=c99
+C_FLAGSarm64 =  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fPIC -fno-semantic-interposition -std=c99
 
-C_FLAGS =  -Wall -Wno-implicit-fallthrough -O2 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fPIC -fno-semantic-interposition -std=c99
+C_FLAGS =  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fPIC -fno-semantic-interposition -std=c99
 
 # Custom flags: _deps/zlib-build/CMakeFiles/zlib.dir/arch/arm/crc32_acle.c.o_FLAGS = -march=armv8-a+crc -fno-lto
 

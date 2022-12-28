@@ -6,7 +6,7 @@ C_DEFINES = -DBUILDING_LIBCURL -DCPR_ENABLE_SSL -DCURL_HIDDEN_SYMBOLS -DHAVE_CON
 
 C_INCLUDES = -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-src/include -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib/../include -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-src/lib/.. -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-src/lib/../include -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib/.. -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-src/lib -I/Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-build/lib
 
-C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fPIC -fvisibility=hidden
+C_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fPIC -fvisibility=hidden
 
-C_FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fPIC -fvisibility=hidden
+C_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fPIC -fvisibility=hidden
 
