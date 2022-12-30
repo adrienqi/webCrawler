@@ -95,6 +95,7 @@ webCrawler: CMakeFiles/webCrawler.dir/build.make
 webCrawler: _deps/cpr-build/cpr/libcpr.1.9.0.dylib
 webCrawler: _deps/curl-build/lib/libcurl-d.dylib
 webCrawler: /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libz.tbd
+webCrawler: /opt/homebrew/Cellar/gumbo-parser/0.10.1/lib/libgumbo.dylib
 webCrawler: CMakeFiles/webCrawler.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aqi/Documents/GitHub/webCrawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable webCrawler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webCrawler.dir/link.txt --verbose=$(VERBOSE)

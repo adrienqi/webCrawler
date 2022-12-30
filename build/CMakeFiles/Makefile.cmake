@@ -82,6 +82,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FindPackageMessage.cmake"
   "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FindPerl.cmake"
+  "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FindPkgConfig.cmake"
   "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FindThreads.cmake"
   "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/FindZLIB.cmake"
   "/opt/homebrew/Cellar/cmake/3.25.1/share/cmake/Modules/GNUInstallDirs.cmake"

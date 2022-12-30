@@ -17,7 +17,8 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release" "MinSizeRel" "RelWithDebInfo")
 endif()
 
-find_package(gumbo.h)
+find_package(PkgConfig REQUIRED)
+pkg_search_module(PKG_GUMBO REQUIRED IMPORTED_TARGET gumbo)
 
 add_executable(webCrawler main.cpp)
 
@@ -32,3 +33,4 @@ FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git
 FetchContent_MakeAvailable(cpr)
 
 target_link_libraries(webCrawler PRIVATE cpr::cpr)
+target_link_libraries(webCrawler PRIVATE PkgConfig::PKG_GUMBO) 

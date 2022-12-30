@@ -600,6 +600,12 @@ PICKY_COMPILER:BOOL=ON
 //Installation directory for pkgconfig (.pc) files
 PKGCONFIG_INSTALL_DIR:PATH=/usr/local/lib/pkgconfig
 
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/opt/homebrew/bin/pkg-config
+
 //Path to a file.
 RANDOM_FILE:FILEPATH=/dev/urandom
 
@@ -690,6 +696,9 @@ gumbo.h_DIR:PATH=gumbo.h_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for gumbo.
 gumbo_DIR:PATH=gumbo_DIR-NOTFOUND
+
+//Path to a library.
+pkgcfg_lib_PKG_GUMBO_gumbo:FILEPATH=/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib/libgumbo.dylib
 
 //Value Computed by CMake
 webCrawler_BINARY_DIR:STATIC=/Users/aqi/Documents/GitHub/webCrawler/build
@@ -1017,6 +1026,8 @@ DETECT_SSL_BACKEND:INTERNAL=ON
 ENABLE_IPV6-ADVANCED:INTERNAL=1
 //Details about finding Perl
 FIND_PACKAGE_MESSAGE_DETAILS_Perl:INTERNAL=[/opt/homebrew/bin/perl][v5.36.0()]
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/opt/homebrew/bin/pkg-config][v0.29.2()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
@@ -1397,6 +1408,45 @@ NOT_NEED_LIBNSL:INTERNAL=1
 OFF64_T:INTERNAL=
 //ADVANCED property for variable: PERL_EXECUTABLE
 PERL_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+PKG_GUMBO_CFLAGS:INTERNAL=-I/opt/homebrew/Cellar/gumbo-parser/0.10.1/include
+PKG_GUMBO_CFLAGS_I:INTERNAL=
+PKG_GUMBO_CFLAGS_OTHER:INTERNAL=
+PKG_GUMBO_FOUND:INTERNAL=1
+PKG_GUMBO_INCLUDEDIR:INTERNAL=/opt/homebrew/Cellar/gumbo-parser/0.10.1/include
+PKG_GUMBO_INCLUDE_DIRS:INTERNAL=/opt/homebrew/Cellar/gumbo-parser/0.10.1/include
+PKG_GUMBO_LDFLAGS:INTERNAL=-L/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib;-lgumbo
+PKG_GUMBO_LDFLAGS_OTHER:INTERNAL=
+PKG_GUMBO_LIBDIR:INTERNAL=/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib
+PKG_GUMBO_LIBRARIES:INTERNAL=gumbo
+PKG_GUMBO_LIBRARY_DIRS:INTERNAL=/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib
+PKG_GUMBO_LIBS:INTERNAL=
+PKG_GUMBO_LIBS_L:INTERNAL=
+PKG_GUMBO_LIBS_OTHER:INTERNAL=
+PKG_GUMBO_LIBS_PATHS:INTERNAL=
+PKG_GUMBO_MODULE_NAME:INTERNAL=gumbo
+PKG_GUMBO_PREFIX:INTERNAL=/opt/homebrew/Cellar/gumbo-parser/0.10.1
+PKG_GUMBO_STATIC_CFLAGS:INTERNAL=-I/opt/homebrew/Cellar/gumbo-parser/0.10.1/include
+PKG_GUMBO_STATIC_CFLAGS_I:INTERNAL=
+PKG_GUMBO_STATIC_CFLAGS_OTHER:INTERNAL=
+PKG_GUMBO_STATIC_INCLUDE_DIRS:INTERNAL=/opt/homebrew/Cellar/gumbo-parser/0.10.1/include
+PKG_GUMBO_STATIC_LDFLAGS:INTERNAL=-L/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib;-lgumbo
+PKG_GUMBO_STATIC_LDFLAGS_OTHER:INTERNAL=
+PKG_GUMBO_STATIC_LIBDIR:INTERNAL=
+PKG_GUMBO_STATIC_LIBRARIES:INTERNAL=gumbo
+PKG_GUMBO_STATIC_LIBRARY_DIRS:INTERNAL=/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib
+PKG_GUMBO_STATIC_LIBS:INTERNAL=
+PKG_GUMBO_STATIC_LIBS_L:INTERNAL=
+PKG_GUMBO_STATIC_LIBS_OTHER:INTERNAL=
+PKG_GUMBO_STATIC_LIBS_PATHS:INTERNAL=
+PKG_GUMBO_VERSION:INTERNAL=0.10.1
+PKG_GUMBO_gumbo_INCLUDEDIR:INTERNAL=
+PKG_GUMBO_gumbo_LIBDIR:INTERNAL=
+PKG_GUMBO_gumbo_PREFIX:INTERNAL=
+PKG_GUMBO_gumbo_VERSION:INTERNAL=
 //ADVANCED property for variable: RANDOM_FILE
 RANDOM_FILE-ADVANCED:INTERNAL=1
 //CHECK_TYPE_SIZE: ADDRESS_FAMILY unknown
@@ -1472,6 +1522,7 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _OFF64_T:INTERNAL=
 //CHECK_TYPE_SIZE: __off64_t unknown
 __OFF64_T:INTERNAL=
+__pkg_config_checked_PKG_GUMBO:INTERNAL=1
 //Result of TRY_COMPILE
 compile_result_unused:INTERNAL=FALSE
 //Arguments for recv
@@ -1486,4 +1537,7 @@ curl_cv_func_send_test:INTERNAL=1
 curl_cv_recv:INTERNAL=1
 //Test curl_cv_send
 curl_cv_send:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PKG_GUMBO_gumbo
+pkgcfg_lib_PKG_GUMBO_gumbo-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/opt/homebrew/Cellar/gumbo-parser/0.10.1/lib
 
