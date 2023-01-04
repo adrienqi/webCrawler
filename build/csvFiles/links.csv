@@ -186,7 +186,7 @@ http://www.søkbar.no
 /urls/duplicate_page/foo
 /urls/duplicate_page/bar
 /urls/duplicate_page/baz
-/urls/with_session_id?sessionID=wsgd4HVUuTl0QI2rcL4r
+/urls/with_session_id?sessionID=PivEIJ4JHb5pQudqGP0y
 /urls/page_url_length_n
 /urls/url_with_fragment#fragment
 /url/URL%2c_with_encoded_reserved_character
@@ -394,7 +394,7 @@ relativeurl:withcolon
 /other/conflicting_language_tags
 /other/page_load_time_n
 /other/crawler_request_headers
-/other/expiring_page_for_removed_test/1672808288.2265515
+/other/expiring_page_for_removed_test/1672861052.0855753
 /other/duplicated_body_content_1
 /other/duplicated_body_content_2
 /other/string_width/512/string
