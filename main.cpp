@@ -29,9 +29,8 @@ void search_for_links(GumboNode* node, std::ofstream& writeCsv, std::unordered_m
     if (node->v.element.tag == GUMBO_TAG_A &&
         (href = gumbo_get_attribute(&node->v.element.attributes, "href"))) {
         if (disallowMap.find(href->value) == disallowMap.end()) {
-            
+            writeCsv << href->value << std::endl;
         }
-        writeCsv << href->value << std::endl;
     }
 
     GumboVector* children = &node->v.element.children;
