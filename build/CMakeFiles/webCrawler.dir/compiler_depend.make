@@ -181,7 +181,6 @@ CMakeFiles/webCrawler.dir/main.cpp.o: /Users/aqi/Documents/GitHub/webCrawler/mai
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/stdexcept \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__memory/unique_ptr.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/hash.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__memory/auto_ptr.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/chrono \
@@ -432,6 +431,8 @@ CMakeFiles/webCrawler.dir/main.cpp.o: /Users/aqi/Documents/GitHub/webCrawler/mai
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_posix_vdisable.h \
@@ -443,14 +444,12 @@ CMakeFiles/webCrawler.dir/main.cpp.o: /Users/aqi/Documents/GitHub/webCrawler/mai
   _deps/cpr-src/include/cpr/cpr.h \
   _deps/cpr-src/include/cpr/api.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/thread \
   _deps/cpr-src/include/cpr/async.h \
   _deps/cpr-src/include/cpr/singleton.h \
   _deps/cpr-src/include/cpr/threadpool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/queue \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector \
   _deps/cpr-src/include/cpr/auth.h \
   _deps/cpr-src/include/cpr/bearer.h \
   _deps/curl-src/include/curl/curlver.h \
@@ -586,15 +585,9 @@ _deps/cpr-src/include/cpr/bearer.h:
 
 _deps/cpr-src/include/cpr/auth.h:
 
-_deps/cpr-src/include/cpr/user_agent.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/queue:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/list:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/thread:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/socket.h:
 
@@ -609,6 +602,12 @@ _deps/cpr-src/include/cpr/cpr.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_seek_set.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/unistd.h:
+
+_deps/cpr-src/include/cpr/user_agent.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/thread:
 
 _deps/cpr-src/include/cpr/buffer.h:
 
@@ -1291,8 +1290,6 @@ _deps/cpr-src/include/cpr/singleton.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_sigset_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_ucontext.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__config_site:
 

@@ -2,6 +2,8 @@
 #include <fstream>
 #include <sstream>
 #include <unordered_map>
+#include <thread>
+#include <vector>
 
 #ifdef _WIN32
 #include <Windows.h>
@@ -26,7 +28,7 @@ std::string extract_html_page(std::string link, bool robot) {
     return response.text;
 }
 
-void search_for_links(GumboNode* node, std::ofstream& writeCsv, std::unordered_map<std::string, std::string> disallowMap) {
+void search_for_links(GumboNode* node, std::ofstream& writeCsv, std::unordered_map<std::string, std::string> &disallowMap) {
     if (node->type != GUMBO_NODE_ELEMENT) {
         return;
     }
@@ -36,12 +38,13 @@ void search_for_links(GumboNode* node, std::ofstream& writeCsv, std::unordered_m
         (href = gumbo_get_attribute(&node->v.element.attributes, "href"))) {
         if (disallowMap.find(href->value) == disallowMap.end()) {
             writeCsv << href->value << std::endl;
+            std::cout << href->value << std::endl;
         }
     }
 
     GumboVector* children = &node->v.element.children;
     for (unsigned int i = 0; i < children->length; ++i) {
-        sleep(1);
+        sleep(5);
         search_for_links(static_cast<GumboNode*>(children->data[i]), writeCsv, disallowMap);
     }
 }
@@ -102,8 +105,17 @@ int main(int argc, char** argv) {
 
     std::string page_content = extract_html_page(link, false);
     GumboOutput* parsed_response = gumbo_parse(page_content.c_str());
-        
-    search_for_links(parsed_response->root, writeCsv, disallowMap);
+    
+    std::vector<std::thread> ths;
+
+    for (int i = 0; i < 5; i++) {
+        ths.push_back(std::thread(search_for_links, std::ref(parsed_response->root), std::ref(writeCsv), std::ref(disallowMap)));
+    }
+
+    for (auto& th : ths) {
+        th.join();
+    }
+    
     // free the allocated memory
     gumbo_destroy_output(&kGumboDefaultOptions, parsed_response);
 }

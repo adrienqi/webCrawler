@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 project(webCrawler)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Set a default build type if none was specified
@@ -16,6 +16,8 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   # Set the possible values of build type for cmake-gui
   set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release" "MinSizeRel" "RelWithDebInfo")
 endif()
+
+find_package(Threads REQUIRED)
 
 find_package(PkgConfig REQUIRED)
 pkg_search_module(PKG_GUMBO REQUIRED IMPORTED_TARGET gumbo)
@@ -34,3 +36,4 @@ FetchContent_MakeAvailable(cpr)
 
 target_link_libraries(webCrawler PRIVATE cpr::cpr)
 target_link_libraries(webCrawler PRIVATE PkgConfig::PKG_GUMBO) 
+target_link_libraries(webCrawler PRIVATE Threads::Threads)
