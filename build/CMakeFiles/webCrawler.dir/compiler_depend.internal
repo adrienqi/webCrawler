@@ -433,6 +433,14 @@ CMakeFiles/webCrawler.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/math.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__node_handle
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/optional
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/unistd.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/unistd.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_posix_vdisable.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_seek_set.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/select.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_select.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uuid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/gethostuuid.h
  /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-src/include/cpr/cpr.h
  /Users/aqi/Documents/GitHub/webCrawler/build/_deps/cpr-src/include/cpr/api.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/future
@@ -470,7 +478,6 @@ CMakeFiles/webCrawler.dir/main.cpp.o
  /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-src/include/curl/curl.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_timeval64.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_select.h
  /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-src/include/curl/easy.h
  /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-src/include/curl/multi.h
  /Users/aqi/Documents/GitHub/webCrawler/build/_deps/curl-src/include/curl/urlapi.h

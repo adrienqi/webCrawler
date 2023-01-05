@@ -1,5 +1,4 @@
-/robots_protocol/page_allowed_with_robots
-/robots_protocol/allowed_same
-/robots_protocol/allowed_shor
-/robots_protocol/allowed_longer
-/*withcolon
+/r/*.rss
+/
+/sitemaps/*.xml
+/posts/*

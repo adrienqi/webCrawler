@@ -432,6 +432,14 @@ CMakeFiles/webCrawler.dir/main.cpp.o: /Users/aqi/Documents/GitHub/webCrawler/mai
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_seek_set.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/select.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_select.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uuid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/gethostuuid.h \
   _deps/cpr-src/include/cpr/cpr.h \
   _deps/cpr-src/include/cpr/api.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/future \
@@ -469,7 +477,6 @@ CMakeFiles/webCrawler.dir/main.cpp.o: /Users/aqi/Documents/GitHub/webCrawler/mai
   _deps/curl-src/include/curl/curl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_timeval64.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_select.h \
   _deps/curl-src/include/curl/easy.h \
   _deps/curl-src/include/curl/multi.h \
   _deps/curl-src/include/curl/urlapi.h \
@@ -595,6 +602,14 @@ _deps/cpr-src/include/cpr/api.h:
 
 _deps/cpr-src/include/cpr/cpr.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/gethostuuid.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/select.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_seek_set.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/unistd.h:
+
 _deps/cpr-src/include/cpr/buffer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/optional:
@@ -676,6 +691,8 @@ _deps/curl-src/include/curl/multi.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/xlocale/__wctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uuid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__undef_macros:
 
@@ -874,6 +891,8 @@ _deps/cpr-src/include/cpr/response.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_posix_vdisable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/size.h:
 
@@ -1448,6 +1467,8 @@ _deps/cpr-src/include/cpr/curlholder.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types.h:
 
 _deps/cpr-src/include/cpr/proxies.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/unistd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/bitset:
 

@@ -3,6 +3,12 @@
 #include <sstream>
 #include <unordered_map>
 
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
+
 #include <cpr/cpr.h>
 
 #include "gumbo.h"
@@ -35,6 +41,7 @@ void search_for_links(GumboNode* node, std::ofstream& writeCsv, std::unordered_m
 
     GumboVector* children = &node->v.element.children;
     for (unsigned int i = 0; i < children->length; ++i) {
+        sleep(1);
         search_for_links(static_cast<GumboNode*>(children->data[i]), writeCsv, disallowMap);
     }
 }
@@ -95,7 +102,7 @@ int main(int argc, char** argv) {
 
     std::string page_content = extract_html_page(link, false);
     GumboOutput* parsed_response = gumbo_parse(page_content.c_str());
-
+        
     search_for_links(parsed_response->root, writeCsv, disallowMap);
     // free the allocated memory
     gumbo_destroy_output(&kGumboDefaultOptions, parsed_response);
