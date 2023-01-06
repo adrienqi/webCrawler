@@ -38,13 +38,19 @@ void search_for_links(GumboNode* node, std::ofstream& writeCsv, std::unordered_m
         (href = gumbo_get_attribute(&node->v.element.attributes, "href"))) {
         if (disallowMap.find(href->value) == disallowMap.end()) {
             writeCsv << href->value << std::endl;
-            std::cout << href->value << std::endl;
+            std::cout << "href: " << href->value << std::endl;
         }
     }
 
     GumboVector* children = &node->v.element.children;
-    for (unsigned int i = 0; i < children->length; ++i) {
-        sleep(5);
+    for (unsigned int i = 0; i < children->length; ++i) { 
+        std::cout << children->length << " before" << std::endl;
+        sleep(1); // don't put sleep here bc this is just parsing page
+                    // sleep should be placed where the html is retrieved (cpr)
+                    // TODO: not sure if current code will find links within links.
+                        // actualy implement bfs with crawling
+        std::cout << children->length << " after sleep" << std::endl;
+
         search_for_links(static_cast<GumboNode*>(children->data[i]), writeCsv, disallowMap);
     }
 }
@@ -108,7 +114,7 @@ int main(int argc, char** argv) {
     
     std::vector<std::thread> ths;
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 1; i++) {
         ths.push_back(std::thread(search_for_links, std::ref(parsed_response->root), std::ref(writeCsv), std::ref(disallowMap)));
     }
 
